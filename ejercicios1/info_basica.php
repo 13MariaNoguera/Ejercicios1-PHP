@@ -17,4 +17,4 @@
     <p>Me llamo <?php echo $nombre; ?> y nací en el año <?php echo $anyo; ?>.</p>
     
 </body>
-</html>0
+</html>
