@@ -19,7 +19,7 @@
         h1 {
             color: #088342;
             text-align:center;
-            padding-top: 50px;
+            padding-top: 100px;
         }
 
         .result {

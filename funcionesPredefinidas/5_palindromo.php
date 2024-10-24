@@ -9,28 +9,26 @@
     
     <?php
 
-        $fraseNormal = "hosh";
+        $fraseNormal = "ligar es ser agil";
+        // Eliminar espacios y convertir a minúsculas
+        $fraseSinEspacios = str_replace(' ', '', strtolower($fraseNormal));
         $fraseInvertida = "";
-        $palindroma = false;
         
-        echo "Frase Normal: ".$fraseNormal;
-        for ($i = strlen($fraseNormal) - 1; $i >= 0; $i--) {
-
-           $fraseInvertida .= $fraseNormal[$i];
+        // Invertir la frase usando un bucle for
+        for ($i = strlen($fraseSinEspacios) - 1; $i >= 0; $i--) {
+            $fraseInvertida .= $fraseSinEspacios[$i];
         }
 
-        echo "<br>Frase Invertida: ".$fraseInvertida;
-        if ($fraseInvertida == $fraseNormal) {
-            $palindroma = true;
-        } else {
-            $palindroma = false;
-        }
+        // Mostrar la frase original y la frase invertida
+        echo "Frase Original: " . $fraseNormal;
+        echo "<br>Frase Invertida: " . $fraseInvertida;
 
-        if ($palindroma) {
+        // Verificar si la frase es palíndroma
+        if ($fraseInvertida == $fraseSinEspacios) {
             echo "<br>La frase es palíndroma.";
         } else {
             echo "<br>La frase no es palíndroma.";
-        } 
+        }
 
     ?>
 

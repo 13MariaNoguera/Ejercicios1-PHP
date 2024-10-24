@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body {
+    font-family: "Gotu", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: "Limelight", sans-serif;
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor {
+    display: grid;
+    gap: 40px;
+    margin-bottom: 60px;
+    justify-content: center;
+    justify-items: center;
+    width: 68vw;
+}
+
+.articulos {
+    text-align: center;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.enlace {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.nombreArticulo {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btnAgregar {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: white;
+}
+
+.imagenes {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cabecera, .precioTotal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 68vw;
+}
+
+
+/* CARRO */
+
+.carro::after {
+    content: "🛒";
+    margin-left: 15px;
+}
+
+.contenedorCarro {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F4;
+    border-radius: 7px;
+    width: 70vw;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 95%;
+    margin: 10px;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.imgCarro {
+    width: 20%;
+    height: auto;
+}
+
+.precioTotal {
+    margin-top: 30px;
+}
+
+/* BOTÓN CERRAR SESIÓN */
+.margen {
+    margin-top: 26px;
+    margin-bottom: 8px;
+}
+
+.botones {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.botonCerrar, .botonInicio {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1010px) {
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1011px) and (max-width: 1499px) {
+
+    .contenedor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1500px) {
+
+    .contenedor {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+

@@ -31,6 +31,7 @@
             max-width: 400px;
             width: 40%;
             text-align: center;
+            background-color: #a7d8ff;
         }
 
         p {
