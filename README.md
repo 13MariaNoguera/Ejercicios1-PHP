@@ -23,3 +23,6 @@
 
 ### 8️⃣ [Formularios](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/formularios "Formularios") 
 > Ejercicios de formularios en PHP.
+
+### 9️⃣ [Cookies y Sesiones](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/cookiesYsesiones "Cookies y Sesiones")
+> Ejercicios del manejo de cookies y sesiones en PHP.

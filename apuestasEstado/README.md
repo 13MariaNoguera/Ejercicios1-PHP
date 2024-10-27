@@ -9,6 +9,8 @@ Este archivo HTML permite al usuario seleccionar entre dos tipos de apuestas: Pr
 
 ![Selección Apuesta](visualizacion/apuestasEstado.png)
 
+[`➡️ Ver código`](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/apuestasEstado/selec_apuesta.html "calificaciones.view.php")
+
 ---
 
 ### 2️⃣   [euromillones.php](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/apuestasEstado/euromillones.php "Euromillones")
@@ -16,11 +18,15 @@ Este script PHP genera una apuesta aleatoria para el juego de Euromillones. La a
 
 ![Euromillones](visualizacion/resultEuromillon.png)
 
+[`➡️ Ver código`](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/apuestasEstado/euromillones.php "calificaciones.view.php")
+
 ---
 
 ### 3️⃣   [primitiva.php](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/apuestasEstado/primitiva.php "Primitiva")
 Este script PHP genera una apuesta aleatoria para el juego de la Primitiva. La apuesta consiste en 6 números seleccionados entre 1 y 49, mostrados de manera ordenada en pantalla.
 
 ![Primitiva](visualizacion/resultPrimitiva.png)
+
+[`➡️ Ver código`](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/apuestasEstado/primitiva.php "calificaciones.view.php")
 
 ---
