@@ -43,4 +43,4 @@ Es el script que `'destruye'` la sesión. Se podrá acceder a este cuando el bot
 
 ---
 
-[`⬅️ Volver a las Cookies y Sesiones`](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/formularios "Cookies y Sesiones")
+[`⬅️ Volver a las Cookies y Sesiones`](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/cookiesYsesiones "Cookies y Sesiones")

@@ -26,3 +26,9 @@
 
 ### 9️⃣ [Cookies y Sesiones](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/cookiesYsesiones "Cookies y Sesiones")
 > Ejercicios del manejo de cookies y sesiones en PHP.
+
+### 🔟 [Programación Orientada a Objetos [POO]](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/POO "POO")
+> Ejercicios de POO en PHP.
+
+### 11 [Bases de Datos [BBDD]](https://github.com/13MariaNoguera/Ejercicios1-PHP/tree/master/BBDD "BBDD")
+> Ejercicios de Bades de Datos en PHP

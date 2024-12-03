@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,500;1,500&family=Poiret+One&family=Tiny5&display=swap');
+
+body {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+}
+
+.cerrarSesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    width: 110px;
+    height: 33px;
+    background-color: rgb(185, 155, 214);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.volverAtras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 30px;
+    width: 110px;
+    height: 33px;
+    background-color: rgb(185, 155, 214);
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+.sessionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    flex-direction: column;
+    gap: 25px;
+    min-width: 240px;
+    width: 15%;
+    height: 330px;
+}
+
+.messageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    flex-direction: column;
+    gap: 5px;
+    min-width: 240px;
+    width: 20%;
+    height: 200px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 255);
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+}
+
+.containerRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 240px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    gap: 25px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textLabel {
+    font-size: 17px;
+}
+
+input[type="text"], input[type="password"] {
+    font-family: "Poiret One", sans-serif;
+    font-size: 16px;
+    width: 210px;
+    height: 24px;
+}
+
+#description {
+    font-family: "Poiret One", sans-serif;
+    font-size: 16px;
+    width: 210px;
+    height: 44px;
+    min-width: 210px;
+    max-width: 210px;
+    max-height: 500px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    font-family: "Poiret One", sans-serif;
+}
+
+.btnRegistrar, .btnReset {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 33px;
+    background-color: rgb(185, 155, 214);
+    color: white;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+.btnRegistrar:hover, .btnReset:hover, .cerrarSesion:hover, .volverAtras:hover {
+    background-color: rgb(173, 133, 211);
+    cursor: pointer;
+}
+
+.btnRegistrar:active, .btnReset:active, .cerrarSesion:active, .volverAtras:active {
+    transform: translate(0px, 2px);
+}
+
+.containerTabla {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    font-family: "Poiret One", sans-serif;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(185, 155, 214);
+    color: white;
+    font-weight: bold;
+}
+
+thead th {
+    padding: 10px;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 239, 255);
+}
+
+td {
+    padding: 10px;
+    font-size: 15px;
+}
+
+th, td {
+    text-align: center;
+}
+
+.encabezado th {
+    text-align: center;
+}
+
+.fa-trash, .fa-pen-to-square {
+    color: rgb(185, 155, 214);
+}
+
+.fa-trash:hover, .fa-pen-to-square:hover {
+    cursor: pointer;
+}
+
+.noHayDatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

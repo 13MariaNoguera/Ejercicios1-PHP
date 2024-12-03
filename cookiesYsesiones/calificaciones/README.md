@@ -17,7 +17,6 @@ Esta es la vista del archivo `calificaciones.php`, donde se rellenará el formul
 ![Calificaciones](../visualizacion/calificaciones.png)
 
 ![Calificaciones](../visualizacion/calificaciones2.png)
-
 [`➡️ Ver código`](https://github.com/13MariaNoguera/Ejercicios1-PHP/blob/master/cookiesYsesiones/calificaciones/calificaciones.view.php "calificaciones.view.php")
 
 ---
